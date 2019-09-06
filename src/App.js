@@ -52,7 +52,7 @@ function App() {
         {
           type:"plain-date",
           data:["Camp Counselor - Camp Gilmont - Gilmer, Texas"],
-          date:""
+          date:"Summer 2010-2013"
         },
         {
           type:"bullet",
@@ -83,7 +83,7 @@ function App() {
         {
           type:"plain-date",
           data:["Eagle Scout"],
-          date:""
+          date:"March 8 2012"
         }
       ]
     },

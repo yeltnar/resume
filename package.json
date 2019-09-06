@@ -11,7 +11,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "keybase": "yarn run build && cp -r build/* /keybase/public/droodle_b/resume/",
+    "keybase": "yarn run build && cp -r build/* /keybase/public/droodle_b/resume/ && echo {\\\"time\\\":\\\"$(date)\\\"} > /keybase/public/droodle_b/resume/time.json",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
