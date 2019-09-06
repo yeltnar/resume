@@ -2,23 +2,59 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import {Section} from "./components/templates/section"
+
 function App() {
+
+  const sectionArr = [
+    {
+      title:"Objective",
+      content:[
+        {
+          type:"",
+          data:[],
+        }
+      ]
+    },
+    {
+      title:"Work Experience",
+      content:[
+        {
+          type:"",
+          data:[],
+        }
+      ]
+    },
+    {
+      title:"Skills",
+      content:[
+        {
+          type:"",
+          data:[],
+        }
+      ]
+    },
+    {
+      title:"Achievements",
+      content:[
+        {
+          type:"",
+          data:[],
+        }
+      ]
+    },
+  ];
+
+  console.log(sectionArr.length);
+
+  const sectionElementArr = sectionArr.map((cur)=>{
+    console.log(cur);
+    return (<Section title={cur.title} content={cur.content}></Section>)
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {sectionElementArr}
     </div>
   );
 }

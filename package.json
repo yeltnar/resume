@@ -11,6 +11,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "publish": "yarn run build && cp -r build/* /keybase/public/droodle_b/resume/",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -27,5 +28,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage":"https://droodle_b.keybase.pub/resume"
 }
