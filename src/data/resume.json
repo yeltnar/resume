@@ -67,12 +67,28 @@
       "title": "Skills",
       "content": [
         {
-          "type": "plain",
+          "type": "label-content",
           "data": [
-            "Software: Word, Excel, PowerPoint, Eclipse, Android Studio, Bluemix, Git",
-            "Languages and Technologies: Java, HTML, JavaScript, CSS, NodeJS, Cloudant",
-            "Operating Systems: Unix, Windows, Mac",
-            "Education: University of Texas at Dallas– Software Engineering Major"
+            {
+              "label":"Software",
+              "content":"Git, IBM Cloud, Google Firebase, Bash, Eclipse, Android Studio"
+            },
+            {
+              "label":"Languages",
+              "content":"Java, HTML, JavaScript, CSS"
+            },
+            {
+              "label":"Technologies",
+              "content":"Docker, NodeJS, Cloudant/CouchDB, CICD"
+            },
+            {
+              "label":"Operating",
+              "content":"Unix, Windows, Mac"
+            },
+            {
+              "label":"Education",
+              "content":"University of Texas at Dallas– Software Engineering Major"
+            }
           ]
         }
       ]
@@ -81,12 +97,27 @@
       "title": "Achievements",
       "content": [
         {
-          "type": "plain-date",
+          "type": "achievement-date",
+          "data": [
+            "Technical Specialist Profession Certification - Level 2"
+          ],
+          "date": "December 3, 2018"
+        },
+        {
+          "type": "achievement-date",
+          "data": [
+            "Master Certified Technical Specialist, Application Development Products"
+          ],
+          "date": "December 3, 2018"
+        },
+        {
+          "type": "achievement-date",
           "data": [
             "Eagle Scout"
           ],
-          "date": "March 8 2012"
+          "date": "March 8, 2012"
         }
+        
       ]
     }
   ]

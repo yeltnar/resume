@@ -28,6 +28,19 @@ function Section(props){
                 single_to_return = single_content.data.map((cur,i)=>{
                     return <div dangerouslySetInnerHTML={{__html:cur}} key={i}/>;
                 });
+            }else if(single_content.type==="label-content"){
+                
+                single_to_return = single_content.data.reduce((acc, cur, i) => {
+                    acc.push((
+                        <React.Fragment>
+                            <div className="label">{cur.label}:</div>
+                            <div className="content">{cur.content}</div>
+                        </React.Fragment>
+                    ));
+                    return acc
+                }, []);
+
+                single_to_return = (<div className="label-content">{single_to_return}</div>);
 
             }else if(single_content.type==="plain-date"){
 
@@ -37,16 +50,24 @@ function Section(props){
                         <span className="date">{single_content.date || "ADD A DATE"}</span>
                     </span>
                 );
+            }else if(single_content.type==="achievement-date"){
+
+                single_to_return = (
+                    <span className="plain-date-holder achievement-date-holder">
+                        <span className="title">{single_content.data[0]}</span>
+                        <span className="date">{single_content.date || "ADD A DATE"}</span>
+                    </span>
+                );
 
             }else if(single_content.type==="bullet"){
 
-                single_to_return = single_content.data.map((cur)=>{
+                single_to_return = single_content.data.map((cur,i)=>{
                     return (
-                        <div>* {cur}</div>
+                        <div key={i}>* {cur}</div>
                     );
                 });
 
-                single_to_return = <div class="bullet_container">{single_to_return}</div>
+                single_to_return = <div className="bullet_container">{single_to_return}</div>
 
             }else{
                 console.log(JSON.stringify(single_content,null,2));
@@ -54,7 +75,7 @@ function Section(props){
                 single_to_return = JSON.stringify(single_content,null,2)
             }
 
-            return single_to_return;
+            return <span key={i}>{single_to_return}</span>;
 
         });
 
