@@ -1,3 +1,14 @@
+#root{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: space-around;
+}
+
+.App{
+    width: 50rem;
+}
+
 .section{
     display: flex;
     flex-direction: column;
@@ -7,19 +18,21 @@
 
 .section-title{
     background-color: #95b3d8;
-    width: 90vw;
+    width: 100%;
+    min-width: 200px;
 }
 
 .section-content{
-    max-width: 90vw;
-    width: 90vw;
+    /* max-width: 90vw; */
+    /* width: 90vw; */
+    width: 100%;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 .plain-date-holder{
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    margin: 1rem 1rem 0rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
 }
 
 .plain-date-holder > .title{
@@ -28,4 +41,9 @@
 
 .plain-date-holder > .date{
     font-style: italic;
+}
+
+.bullet_container{
+    text-align: left;
+    margin: 0rem 3rem 0rem 3rem;
 }

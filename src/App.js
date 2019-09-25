@@ -12,7 +12,7 @@ function App() {
       content:[
         {
           type:"plain",
-          data:["Obtain a Software Engineering position at IBM"],
+          data:["<i>Obtain a Software Engineering position</i>"],
         }
       ]
     },

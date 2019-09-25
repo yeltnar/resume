@@ -26,9 +26,7 @@ function Section(props){
             if(single_content.type==="plain"){
                 
                 single_to_return = single_content.data.map((cur)=>{
-                    return(
-                        <div>{cur}</div>
-                    )
+                    return <div dangerouslySetInnerHTML={{__html:cur}} />;
                 });
 
             }else if(single_content.type==="plain-date"){
@@ -47,6 +45,8 @@ function Section(props){
                         <div>* {cur}</div>
                     );
                 });
+
+                single_to_return = <div class="bullet_container">{single_to_return}</div>
 
             }else{
                 console.log(JSON.stringify(single_content,null,2));
