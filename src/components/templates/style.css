@@ -52,7 +52,11 @@
 }
 
 .achievement-date-holder{
-    margin: .5rem .5rem .5rem .5rem;
+    margin: .75rem .5rem .75rem .5rem;
+}
+
+.achievement-date-holder > .title{
+    text-align: left;
 }
 
 .label-content{

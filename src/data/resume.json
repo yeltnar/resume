@@ -84,10 +84,6 @@
             {
               "label":"Operating",
               "content":"Unix, Windows, Mac"
-            },
-            {
-              "label":"Education",
-              "content":"University of Texas at Dallas– Software Engineering Major"
             }
           ]
         }
@@ -109,6 +105,13 @@
             "Master Certified Technical Specialist, Application Development Products"
           ],
           "date": "December 3, 2018"
+        },
+        {
+          "type": "achievement-date",
+          "data": [
+            "University of Texas at Dallas, BS Software Engineering"
+          ],
+          "date": "May 2016"
         },
         {
           "type": "achievement-date",

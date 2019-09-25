@@ -54,8 +54,8 @@ function Section(props){
 
                 single_to_return = (
                     <span className="plain-date-holder achievement-date-holder">
-                        <span className="title">{single_content.data[0]}</span>
-                        <span className="date">{single_content.date || "ADD A DATE"}</span>
+                        <div className="title">{single_content.data[0]}</div>
+                        <div className="date">{single_content.date || "ADD A DATE"}</div>
                     </span>
                 );
 
