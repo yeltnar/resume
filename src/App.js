@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import {Section} from "./components/templates/section"
+import {Title} from "./components/title/Title"
 
 import resume_json from "./data/resume.json"
 
@@ -23,7 +24,8 @@ function App() {
 
   return (
     <div className="App">
-      {sectionElementArr}
+      <Title></Title>
+      <span className="main_resume">{sectionElementArr}</span>
     </div>
   );
 }

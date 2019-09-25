@@ -1,0 +1,12 @@
+.contact{
+    margin: .5rem;
+}
+
+.contact > .name{
+    /* background-color: pink; */
+    font-weight: bold;
+}
+
+.contact > .email{
+    /* background-color: green; */
+}
