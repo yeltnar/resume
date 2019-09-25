@@ -19,14 +19,14 @@ function Section(props){
 
         const {content} = props;
 
-        let to_return = content.map((single_content)=>{
+        let to_return = content.map((single_content,i)=>{
 
             let single_to_return;
 
             if(single_content.type==="plain"){
                 
-                single_to_return = single_content.data.map((cur)=>{
-                    return <div dangerouslySetInnerHTML={{__html:cur}} />;
+                single_to_return = single_content.data.map((cur,i)=>{
+                    return <div dangerouslySetInnerHTML={{__html:cur}} key={i}/>;
                 });
 
             }else if(single_content.type==="plain-date"){
