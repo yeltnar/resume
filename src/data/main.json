@@ -1,19 +1,24 @@
-[
-    {
+{
+  "contact": {
+    "name": "Andrew Brantley",
+    "email": "resume@andbrant.com",
+    "website": {
+      "text": "hi.andbrant.com",
+      "link": "https://hi.andbrant.com"
+    }
+  },
+  "resume": [{
       "title": "Objective",
-      "content": [
-        {
-          "type": "plain",
-          "data": [
-            "<i>Obtain a Software Engineering position</i>"
-          ]
-        }
-      ]
+      "content": [{
+        "type": "plain",
+        "data": [
+          "<i>Obtain a Software Engineering position</i>"
+        ]
+      }]
     },
     {
       "title": "Work Experience",
-      "content": [
-        {
+      "content": [{
           "type": "plain-date",
           "data": [
             "IBM – IT Specialist"
@@ -23,11 +28,10 @@
         {
           "type": "bullet",
           "data": [
-            "Worked with two teams on IBM Worklight Apps using HTML, CSS, and JS",
-            "Backend for Mobile App in Node.JS that is now published ",
-            "Support for NYPD bodycam proposal ",
-            "Presented at IBM Seller’s Academy and IBM Insight conferences ",
-            "Made UI for internal IBM search application"
+            "Work with teams from app conception to proof of concept delivery",
+            "Deployed on and off premise cloud apps",
+            "Realize abstract architectures as small components that developers can implement",
+            "Develop front ends, web servers, and integration components"
           ]
         },
         {
@@ -40,10 +44,10 @@
         {
           "type": "bullet",
           "data": [
-            "Worked with two teams on IBM Worklight Apps using HTML, CSS, and JS",
-            "Backend for Mobile App in Node.JS that is now published ",
-            "Support for NYPD bodycam proposal ",
-            "Presented at IBM Seller’s Academy and IBM Insight conferences ",
+            "Made IBM Worklight Apps using HTML, CSS, and JS",
+            "Backend for Center's information App in Node.JS",
+            "Technical support for NYPD bodycam proposal",
+            "Presented at IBM Seller’s Academy and IBM Insight conferences",
             "Made UI for internal IBM search application"
           ]
         },
@@ -57,42 +61,38 @@
         {
           "type": "bullet",
           "data": [
-            "Responsible for leading campers from the age of 7 to 17 in camp related activities",
-            "Trained campers to become counselor"
+            "Responsible for campers from the age of 7 to 17",
+            "Trained campers to become counselors"
           ]
         }
       ]
     },
     {
       "title": "Skills",
-      "content": [
-        {
-          "type": "label-content",
-          "data": [
-            {
-              "label":"Software",
-              "content":"Git, IBM Cloud, Google Firebase, Bash, Eclipse, Android Studio"
-            },
-            {
-              "label":"Languages",
-              "content":"Java, HTML, JavaScript, CSS"
-            },
-            {
-              "label":"Technologies",
-              "content":"Docker, NodeJS, Cloudant/CouchDB, CICD"
-            },
-            {
-              "label":"Operating",
-              "content":"Unix, Windows, Mac"
-            }
-          ]
-        }
-      ]
+      "content": [{
+        "type": "label-content",
+        "data": [{
+            "label": "Software",
+            "content": "Git, IBM Cloud, Google Firebase, Bash, Eclipse, Android Studio"
+          },
+          {
+            "label": "Languages",
+            "content": "Java, HTML, JavaScript, CSS"
+          },
+          {
+            "label": "Technologies",
+            "content": "Docker, NodeJS, Cloudant/CouchDB, CICD"
+          },
+          {
+            "label": "Operating",
+            "content": "Unix, Windows, Mac"
+          }
+        ]
+      }]
     },
     {
       "title": "Achievements",
-      "content": [
-        {
+      "content": [{
           "type": "achievement-date",
           "data": [
             "Technical Specialist Profession Certification - Level 2"
@@ -120,7 +120,8 @@
           ],
           "date": "March 8, 2012"
         }
-        
+
       ]
     }
   ]
+}

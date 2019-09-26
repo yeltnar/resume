@@ -5,11 +5,11 @@ import './App.css';
 import {Section} from "./components/templates/section"
 import {Title} from "./components/title/Title"
 
-import resume_json from "./data/resume.json"
+import {resume} from "./data/main.json"
 
 function App() {
 
-  const [resume_obj, setResumeObj] = useState(resume_json);
+  const [resume_obj, setResumeObj] = useState(resume);
 
   if(resume_obj===undefined){
     return LoadingElement

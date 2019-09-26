@@ -71,3 +71,6 @@
 .label-content > .label{
     font-weight: bold;
 }
+.label-content > .content{
+    text-align: left;
+}

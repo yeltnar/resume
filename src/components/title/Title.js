@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import contact from "../../data/contact.json"
+import {contact} from "../../data/main.json"
 import './style.css';
 
 function Title(){
