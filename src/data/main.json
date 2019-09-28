@@ -21,16 +21,16 @@
       "content": [{
           "type": "plain-date",
           "data": [
-            "IBM – IT Specialist"
+            "IBM – IT Specialist, Coppell, Texas"
           ],
           "date": "September 2016-present"
         },
         {
           "type": "bullet",
           "data": [
-            "Worked with teams from app conception to proof of concept delivery",
-            "Deployed on and off premise cloud apps",
-            "Realized abstract architectures as small components that developers can implement",
+            "Worke with teams from app conception to proof of concept delivery",
+            "Deploy on and off-premise cloud apps",
+            "Realize abstract architectures as small components that developers can implement",
             "Developed front ends, web servers, and integration components"
           ]
         },
@@ -44,9 +44,9 @@
         {
           "type": "bullet",
           "data": [
-            "Made IBM Worklight Apps using HTML, CSS, and JS",
-            "Backend for Center's information App in Node.JS",
-            "Technical support for NYPD bodycam proposal",
+            "Created IBM Worklight Apps using HTML, CSS, and JS",
+            "Developed backend for Center's information App in Node.JS",
+            "Provided technical support for NYPD bodycam proposal",
             "Presented at IBM Seller’s Academy and IBM Insight conferences",
             "Made UI for internal IBM search application"
           ]
@@ -54,7 +54,7 @@
         {
           "type": "plain-date",
           "data": [
-            "Camp Counselor - Camp Gilmont - Gilmer, Texas"
+            "Camp Gilmont, Gilmer, Texas - Camp Counselor"
           ],
           "date": "Summer 2010-2013"
         },
@@ -62,7 +62,8 @@
           "type": "bullet",
           "data": [
             "Responsible for campers from the age of 7 to 17",
-            "Trained campers to become counselors"
+            "Trained campers to become counselors",
+            "Worked to maintain camp grounds"
           ]
         }
       ]
@@ -77,15 +78,19 @@
           },
           {
             "label": "Languages",
-            "content": "Java, HTML, JavaScript, CSS"
+            "content": "JavaScript, TypeScript, HTML, CSS, Python, Java"
+          },
+          {
+            "label": "Frameworks",
+            "content": "ExpressJS, React, AngularJS"
           },
           {
             "label": "Technologies",
-            "content": "Docker, NodeJS, Cloudant/CouchDB, CICD"
+            "content": "Docker, NodeJS, Cloudant/CouchDB, CICD, Kubernetes, OpenShift"
           },
           {
-            "label": "Operating",
-            "content": "Unix, Windows, Mac"
+            "label": "Operating Systems",
+            "content": "Ubuntu Family, Raspbian, Mac, Windows, Android, iOS"
           }
         ]
       }]
