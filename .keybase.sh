@@ -15,4 +15,7 @@ saveToKeybaseFolder(){
 }
 
 saveToKeybaseFolder resume main.json
+
+# make julie json file and make version with it
+node dynamic_resume_change/julie.js src/data/main.json src/data/julie.json
 saveToKeybaseFolder resume2 julie.json
