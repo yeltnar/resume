@@ -1,0 +1,146 @@
+{
+  "contact": {
+    "name": "Andrew Brantley",
+    "email": "resume@andbrant.com",
+    "website": {
+      "text": "hi.andbrant.com",
+      "link": "https://hi.andbrant.com"
+    }
+  },
+  "resume": [
+    {
+      "title": "Objective",
+      "content": [
+        {
+          "type": "plain",
+          "data": [
+            "<i>Obtain a Software Engineering position</i>"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Work Experience",
+      "content": [
+        {
+          "type": "plain-date",
+          "data": [
+            "IBM – IT Specialist, Coppell, Texas"
+          ],
+          "date": "September 2016-present"
+        },
+        {
+          "type": "bullet",
+          "data": [
+            "Work with teams from app conception to proof of concept delivery",
+            "Deploy on- and off-premise cloud apps",
+            "Realize abstract architectures as small components that developers can implement",
+            "Developed front ends, web servers, and integration components"
+          ]
+        },
+        {
+          "type": "plain-date",
+          "data": [
+            "IBM – IT Specialist Co-Op, Coppell, Texas"
+          ],
+          "date": "Summer 2014, May 2015-September 2016"
+        },
+        {
+          "type": "bullet",
+          "data": [
+            "Created IBM Worklight Apps using HTML, CSS, and JS",
+            "Developed backend for Center's information App in Node.JS",
+            "Provided technical support for NYPD bodycam proposal",
+            "Presented at IBM Seller’s Academy and IBM Insight conferences",
+            "Made UI for internal IBM search application"
+          ]
+        },
+        {
+          "type": "plain-date",
+          "data": [
+            "Camp Gilmont, Gilmer, Texas - Camp Counselor"
+          ],
+          "date": "Summer 2010-2013"
+        },
+        {
+          "type": "bullet",
+          "data": [
+            "Responsible for campers from the age of 7 to 17",
+            "Trained campers to become counselors",
+            "Worked to maintain camp grounds"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "content": [
+        {
+          "type": "label-content",
+          "data": [
+            {
+              "label": "Software",
+              "content": "Git, IBM Cloud, Google Firebase, Bash, Eclipse, Android Studio"
+            },
+            {
+              "label": "Languages",
+              "content": "JavaScript, TypeScript, HTML, CSS, Python, Java"
+            },
+            {
+              "label": "Frameworks",
+              "content": "ExpressJS, React, AngularJS"
+            },
+            {
+              "label": "Technologies",
+              "content": "Docker, NodeJS, Cloudant/CouchDB, CICD, Kubernetes, OpenShift"
+            },
+            {
+              "label": "Operating Systems",
+              "content": "Ubuntu Family, Raspbian, Mac, Windows, Android, iOS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Achievements",
+      "content": [
+        {
+          "type": "achievement-date",
+          "data": [
+            "Scored a smart, beautiful, hilarious, and all around amazing girlfriend"
+          ],
+          "date": "October 7, 2017"
+        },
+        {
+          "type": "achievement-date",
+          "data": [
+            "Technical Specialist Profession Certification - Level 2"
+          ],
+          "date": "December 3, 2018"
+        },
+        {
+          "type": "achievement-date",
+          "data": [
+            "Master Certified Technical Specialist, Application Development Products"
+          ],
+          "date": "December 3, 2018"
+        },
+        {
+          "type": "achievement-date",
+          "data": [
+            "University of Texas at Dallas, BS Software Engineering"
+          ],
+          "date": "May 2016"
+        },
+        {
+          "type": "achievement-date",
+          "data": [
+            "Eagle Scout"
+          ],
+          "date": "March 8, 2012"
+        }
+      ]
+    }
+  ]
+}

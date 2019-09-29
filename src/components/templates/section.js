@@ -75,7 +75,8 @@ function Section(props){
                 single_to_return = JSON.stringify(single_content,null,2)
             }
 
-            return <span key={i}>{single_to_return}</span>;
+            // return <span key={i}>{single_to_return}</span>;
+            return single_to_return;
 
         });
 
