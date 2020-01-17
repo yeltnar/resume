@@ -102,7 +102,15 @@
     },
     {
       "title": "Achievements",
-      "content": [{
+      "content": [
+        {  
+          "type": "achievement-date",
+          "data": [
+            "Outstanding Technical Achievement Award"
+          ],
+          "date": "May 16, 2019"
+        },
+        {
           "type": "achievement-date",
           "data": [
             "Technical Specialist Profession Certification - Level 2"
