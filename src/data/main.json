@@ -32,7 +32,7 @@
             "Deploy public and private cloud apps",
             "Realize abstract architectures as small components that developers can implement",
             "Developed front ends, web servers, and integration components",
-            "Maintained deploymnets and runtimes for the team's applications"
+            "Maintained deployments and runtimes for the team's applications"
           ]
         },
         {
@@ -91,7 +91,7 @@
           },
           {
             "label": "Operating Systems",
-            "content": "Ubuntu Family, Raspbian, Mac, Windows, Android, iOS"
+            "content": "Linux (Ubuntu Family, Raspbian, SUSE, Red Hat), Mac, Windows, Android, iOS"
           },
           {
             "label": "Other",
