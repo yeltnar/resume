@@ -31,7 +31,8 @@
             "Work with teams from app conception to proof of concept delivery",
             "Deploy on- and off-premise cloud apps",
             "Realize abstract architectures as small components that developers can implement",
-            "Developed front ends, web servers, and integration components"
+            "Developed front ends, web servers, and integration components",
+            "Maintained deploymnets and runtimes for the team's applications"
           ]
         },
         {
@@ -91,6 +92,10 @@
           {
             "label": "Operating Systems",
             "content": "Ubuntu Family, Raspbian, Mac, Windows, Android, iOS"
+          },
+          {
+            "label": "Other",
+            "content": "FPV RC quad copter building and flying"
           }
         ]
       }]
