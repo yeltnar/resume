@@ -7,7 +7,8 @@
       "link": "https://hi.andbrant.com"
     }
   },
-  "resume": [{
+  "resume": [
+    {
       "title": "Objective",
       "content": [{
         "type": "plain",
@@ -45,11 +46,9 @@
         {
           "type": "bullet",
           "data": [
-            "Created IBM Worklight Apps using HTML, CSS, and JS",
-            "Developed backend for Center's information App in Node.JS",
-            "Provided technical support for NYPD bodycam proposal",
-            "Presented at IBM Seller’s Academy and IBM Insight conferences",
-            "Made UI for internal IBM search application"
+            "Created IBM Worklight and web Apps using HTML, CSS, and JS",
+            "Developed backend for Apps in Node.JS",
+            "Presented at IBM Seller’s Academy and IBM Insight conferences"
           ]
         },
         {
@@ -113,14 +112,7 @@
         {
           "type": "achievement-date",
           "data": [
-            "Technical Specialist Profession Certification - Level 2"
-          ],
-          "date": "December 3, 2018"
-        },
-        {
-          "type": "achievement-date",
-          "data": [
-            "Master Certified IT Specialist"
+            "Technical Specialist Certification - Level 2 (Master Certified IT Specialist)"
           ],
           "date": "December 3, 2018"
         },
