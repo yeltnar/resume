@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "puppeteer": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
@@ -12,7 +13,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "keybase": "./.keybase.sh",
-    "save":"./.save.sh",
+    "save": "./.save.sh",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -30,5 +31,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage":"https://droodle_b.keybase.pub/resume2"
+  "homepage": "https://droodle_b.keybase.pub/resume2"
 }

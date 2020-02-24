@@ -38,14 +38,12 @@
     }
 }
 
-@media only screen and (min-width: 600px) {
-    .contact{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .contact > .email{
-        justify-content: flex-start;
-    }
-    .contact > .website{
-        justify-content: flex-end;
-    }
+.contact{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.contact > .email{
+    justify-content: flex-start;
+}
+.contact > .website{
+    justify-content: flex-end;
 }

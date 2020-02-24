@@ -7,6 +7,8 @@ saveToKeybaseFolder(){
     export PUBLIC_URL="https://droodle_b.keybase.pub/"$1
     echo $PUBLIC_URL
 
+    # rm -rf /keybase/public/droodle_b/$1/*
+
     PUBLIC_URL="https://droodle_b.keybase.pub/"$1 yarn run build &&
     cp -r build/* /keybase/public/droodle_b/$1/ &&
     echo {\"time\":\"$(date)\"} > /keybase/public/droodle_b/$1/time.json
