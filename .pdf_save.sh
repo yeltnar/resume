@@ -1,6 +1,8 @@
+KEYBASE_LOCATION="/Volumes/Keybase"
+
 export path="./pdf/resume.pdf" 
-export url="file:///keybase/public/droodle_b/resume/index.html" 
+export url="file://$KEYBASE_LOCATION/public/droodle_b/resume/index.html" 
 
 node print/index.js
 
-cp -r pdf/* /keybase/public/droodle_b/resume/
+cp -r pdf/* $KEYBASE_LOCATION/public/droodle_b/resume/

@@ -1,4 +1,4 @@
-
+KEYBASE_LOCATION="/Volumes/Keybase"
 
 saveToKeybaseFolder(){
     cp src/data/main.json src/data/.bk.json
@@ -7,11 +7,11 @@ saveToKeybaseFolder(){
     export PUBLIC_URL="https://droodle_b.keybase.pub/"$1
     echo $PUBLIC_URL
 
-    # rm -rf /keybase/public/droodle_b/$1/*
+    # rm -rf /Volumes/Keybase/public/droodle_b/$1/*
 
     PUBLIC_URL="https://droodle_b.keybase.pub/"$1 yarn run build &&
-    cp -r build/* /keybase/public/droodle_b/$1/ &&
-    echo {\"time\":\"$(date)\"} > /keybase/public/droodle_b/$1/time.json
+    cp -r build/* $KEYBASE_LOCATION/public/droodle_b/$1/ &&
+    echo {\"time\":\"$(date)\"} > $KEYBASE_LOCATION/public/droodle_b/$1/time.json
 
     mv src/data/.bk.json src/data/main.json
 }

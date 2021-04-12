@@ -30,7 +30,7 @@
           "type": "bullet",
           "data": [
             "Work with teams from app conception to proof of concept delivery",
-            "Deploy public and private cloud apps",
+            "Deploy public and private cloud apps using VMs, and OpenShift",
             "Realize abstract architectures as small components that developers can implement",
             "Developed front ends, web servers, and integration components",
             "Maintained deployments and runtimes for the team's applications"
@@ -50,21 +50,6 @@
             "Developed backend for Apps in Node.JS",
             "Presented at IBM Seller’s Academy and IBM Insight conferences"
           ]
-        },
-        {
-          "type": "plain-date",
-          "data": [
-            "Camp Gilmont, Gilmer, Texas - Camp Counselor"
-          ],
-          "date": "Summer 2010-2013"
-        },
-        {
-          "type": "bullet",
-          "data": [
-            "Responsible for campers from the age of 7 to 17",
-            "Trained campers to become counselors",
-            "Worked to maintain camp grounds"
-          ]
         }
       ]
     },
@@ -74,27 +59,27 @@
         "type": "label-content",
         "data": [{
             "label": "Software",
-            "content": "Git, IBM Cloud, Google Firebase, Bash, Eclipse, Android Studio"
+            "content": "Git, IBM Cloud, Bash, Eclipse, Android Studio"
           },
           {
             "label": "Languages",
-            "content": "JavaScript, TypeScript, HTML, CSS, Bash, Python, Java"
+            "content": "JavaScript, TypeScript, HTML, CSS, Bash, Python"
           },
           {
             "label": "Frameworks",
-            "content": "ExpressJS, React, AngularJS"
+            "content": "Express.JS, React"
           },
           {
             "label": "Technologies",
-            "content": "Docker, NodeJS, Cloudant/CouchDB, CICD, Kubernetes, OpenShift"
+            "content": "OpenShift, Docker, Kubernetes, NodeJS, CouchDB/Cloudant, Google Firebase, CICD"
           },
           {
             "label": "Operating Systems",
-            "content": "Linux (Ubuntu Family, Raspbian, SUSE, Red Hat), Mac, Windows, Android, iOS"
+            "content": "Linux, Mac, Windows, Android, iOS, Chrome OS"
           },
           {
             "label": "Other",
-            "content": "FPV RC quad copter building and flying"
+            "content": "FPV RC quadcopter building and flying"
           }
         ]
       }]
