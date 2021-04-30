@@ -71,7 +71,7 @@
           },
           {
             "label": "Technologies",
-            "content": "OpenShift, Docker, Kubernetes, NodeJS, CouchDB/Cloudant, Google Firebase, CICD"
+            "content": "OpenShift, Docker, Kubernetes, IPFS, libp2p, NodeJS, CouchDB/Cloudant, Google Firebase, CICD"
           },
           {
             "label": "Operating Systems",
