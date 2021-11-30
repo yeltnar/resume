@@ -104,19 +104,19 @@
     {
       "title": "Achievements",
       "content": [
-        {  
-          "type": "achievement-date",
-          "data": [
-            "Outstanding Technical Achievement Award"
-          ],
-          "date": "May 16, 2019"
-        },
         {
           "type": "achievement-date",
           "data": [
             "Technical Specialist Certification - Level 2 (Master Certified IT Specialist)"
           ],
           "date": "October 13, 2021"
+        },
+        {  
+          "type": "achievement-date",
+          "data": [
+            "Outstanding Technical Achievement Award"
+          ],
+          "date": "May 16, 2019"
         },
         {
           "type": "achievement-date",

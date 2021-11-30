@@ -12,9 +12,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "keybase": "./.keybase.sh",
-    "save": "./.save.sh",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "rm -rf docs && yarn build && mv build docs && cp CNAME docs/ && cp pdf/* docs/",
+    "deploy_push": "yarn deploy && git add . && git commit -m 'quick deploy' && git push"
   },
   "eslintConfig": {
     "extends": "react-app"
