@@ -19,12 +19,29 @@
     },
     {
       "title": "Work Experience",
-      "content": [{
+      "content": [
+        {
+          "type": "plain-date",
+          "data": [
+            "IBM – Sr. Cloud Engineer"
+          ],
+          "date": "June 2021-Present"
+        },
+        {
+          "type": "bullet",
+          "data": [
+            "Support and advice team members in Cloud deployments",
+            "Work with teams from app conception to proof of concept delivery",
+            "Deploy public and private cloud apps",
+            "Developed front ends, web servers, and integration components"
+          ]
+        },
+        {
           "type": "plain-date",
           "data": [
             "IBM – IT Specialist, Coppell, Texas"
           ],
-          "date": "September 2016-present"
+          "date": "September 2016-June 2021"
         },
         {
           "type": "bullet",
@@ -59,7 +76,7 @@
         "type": "label-content",
         "data": [{
             "label": "Software",
-            "content": "Git, IBM Cloud, Bash, Eclipse, Android Studio"
+            "content": "Git, IBM Cloud, Bash, VS Code"
           },
           {
             "label": "Languages",
