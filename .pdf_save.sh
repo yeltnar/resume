@@ -1,4 +1,4 @@
-export path="./pdf/resume.pdf" 
+export path="./pdf/AndrewBrantleyResume.pdf" 
 export build_dir="file://$PWD/build/"
 export url="$build_dir/index.html" 
 
