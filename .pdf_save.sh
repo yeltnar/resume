@@ -10,6 +10,7 @@ PUBLIC_URL="$build_dir" yarn run build &&
 
 # use print to pdf node module 
 node print/index.js
+cp $path "./pdf/resume.pdf"
 
 echo "saved to $path"
 
