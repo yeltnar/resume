@@ -76,19 +76,19 @@
         "type": "label-content",
         "data": [{
             "label": "Software",
-            "content": "Git, IBM Cloud, Bash, VS Code"
+            "content": "Git, IBM Cloud, VS Code"
           },
           {
             "label": "Languages",
-            "content": "JavaScript, TypeScript, HTML, CSS, Bash, Python"
+            "content": "JavaScript, TypeScript, HTML, CSS, Go, Python"
           },
           {
             "label": "Frameworks",
-            "content": "Express.JS, React"
+            "content": "Express, React"
           },
           {
             "label": "Technologies",
-            "content": "OpenShift, Docker, Kubernetes, IPFS, libp2p, NodeJS, CouchDB/Cloudant, Google Firebase, CICD"
+            "content": "OpenShift, Docker, Podman, Kubernetes, IPFS, Nebula (Defined Networking), NodeJS, CouchDB/Cloudant, CICD"
           },
           {
             "label": "Operating Systems",
@@ -104,6 +104,13 @@
     {
       "title": "Achievements",
       "content": [
+        {
+          "type": "achievement-date",
+          "data": [
+            "Red Hat Certified Specialist in Containers and Kubernetes"
+          ],
+          "date": "December 9, 2021"
+        },
         {
           "type": "achievement-date",
           "data": [
