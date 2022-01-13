@@ -14,7 +14,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "print": "./.pdf_save.sh",
-    "deploy": "rm -rf docs && yarn print && yarn build && cp -r build docs && cp CNAME docs/ && cp pdf/*.pdf docs/",
+    "deploy": "rm -rf docs && yarn print && yarn build && cp -r build docs && cp CNAME docs/ && cp pdf/*.pdf docs/ && cp hosted_files/* docs/",
     "deploy_push": "yarn deploy && git add . && git commit -m 'quick deploy' && git push"
   },
   "eslintConfig": {
