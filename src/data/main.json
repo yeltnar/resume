@@ -30,7 +30,7 @@
         {
           "type": "bullet",
           "data": [
-            "Support and advice team members in Cloud deployments",
+            "Support and advise team members in Cloud deployments",
             "Work with teams from app conception to proof of concept delivery",
             "Deploy public and private cloud apps",
             "Developed front ends, web servers, and integration components"
@@ -76,7 +76,7 @@
         "type": "label-content",
         "data": [{
             "label": "Software",
-            "content": "Git, IBM Cloud, VS Code"
+            "content": "Git, VS Code, IBM Cloud, Azure, AWS, IBM Cloud Paks"
           },
           {
             "label": "Languages",
