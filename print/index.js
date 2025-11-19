@@ -29,7 +29,10 @@ let {
         displayHeaderFooter
     });
 
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+      executablePath: "chromium",
+      headless: true,
+    });
     const page = await browser.newPage();
   
     await page.goto(url);

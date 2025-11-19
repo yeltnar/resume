@@ -14,8 +14,8 @@
     "preview": "vite preview",
     "eject": "react-scripts eject",
     "print": "./.pdf_save.sh",
-    "deploy": "rm -rf docs && yarn print && yarn build && cp -r build docs && cp CNAME docs/ && cp pdf/*.pdf docs/ && cp hosted_files/* docs/",
-    "deploy_push": "yarn deploy && git add . && git commit -m 'quick deploy' && git push"
+    "deploy": "rm -rf docs && npm run build && npm run print && cp -r dist docs && cp CNAME docs/ && cp pdf/*.pdf docs/ && cp hosted_files/* docs/",
+    "deploy_push": "npm run deploy && git add . && git commit -m 'quick deploy' && git push"
   },
   "eslintConfig": {
     "extends": "react-app"
