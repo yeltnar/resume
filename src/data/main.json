@@ -77,7 +77,7 @@
         "type": "label-content",
         "data": [{
             "label": "Software",
-            "content": "Git, VS Code, IBM Cloud, Azure, AWS, IBM Cloud Paks"
+            "content": "Git, VS Code, IBM Cloud, Azure, AWS, IBM Cloud Paks, Maximo"
           },
           {
             "label": "Languages",
