@@ -81,7 +81,7 @@
           },
           {
             "label": "Languages",
-            "content": "JavaScript, TypeScript, HTML, CSS, Python, Go, Java"
+            "content": "JavaScript, TypeScript, HTML, CSS, Python, Nix, Go, Java"
           },
           {
             "label": "Frameworks",
@@ -93,7 +93,7 @@
           },
           {
             "label": "Operating Systems",
-            "content": "Linux, Mac, Windows, Android, iOS, Chrome OS"
+            "content": "Linux (NixOS, Ubuntu), Mac, Windows, Android, iOS, Chrome OS"
           },
           {
             "label": "Other",
