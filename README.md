@@ -1,3 +1,6 @@
+THIS REQUIRES NODE 16 AT TIME OF WRITING :( 
+can currently build in a container. I need to migrate to a new framework from create-react-app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
