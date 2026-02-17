@@ -29,13 +29,15 @@
 
 .section-content{
     width: 100%;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: .5rem 0rem .5rem 0rem;
 }
 
 .plain-date-holder{
     display: flex;
     justify-content: space-between;
-    margin: 1rem 1rem 1rem 1rem;
+    /* margin: .5rem 1rem .5rem 1rem; */
+    margin: .25rem 1rem .25rem 1rem;
+    /* color: pink; */
 }
 
 .plain-date-holder > .title{
@@ -51,8 +53,14 @@
     margin: 0rem 3rem 0rem 3rem;
 }
 
+.bullet_container > li{
+    /* margin: .25rem 0rem 0rem 0rem; */
+    margin: 0rem 0rem 0rem 0rem;
+    /* color:pink; */
+}
+
 .achievement-date-holder{
-    margin: .75rem .5rem .75rem .5rem;
+    margin: .25rem .5rem .25rem .5rem;
 }
 
 .achievement-date-holder > .title{
@@ -60,7 +68,10 @@
 }
 
 .label-content{
-    margin: 0rem 3rem 0rem 3rem;
+    margin: 0rem 1rem 0rem 1rem;
+    margin: 0rem 1.5rem 0rem 1.5rem;
+    /* margin: 0rem 2rem 0rem 2rem; */
+    /* margin: 0rem 3rem 0rem 3rem; */
     display: grid;
     grid-template-columns: max-content auto;
     grid-column-gap: 1rem;
@@ -71,6 +82,13 @@
 .label-content > .label{
     font-weight: bold;
 }
+
 .label-content > .content{
     text-align: left;
+}
+
+.label-content > .content > li {
+    text-align: left;
+    margin-left: 1rem;
+    /* color: pink; */
 }

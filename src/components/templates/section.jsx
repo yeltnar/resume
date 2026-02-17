@@ -4,6 +4,10 @@ import './style.css'
 
 function Section(props){
 
+    if( props.skip === true ){
+      return (<></>);
+    }
+
     return (
         <div className="section">
             {/* <div>{JSON.stringify(props,null,2)}</div> */}
@@ -31,10 +35,12 @@ function Section(props){
             }else if(single_content.type==="label-content"){
                 
                 single_to_return = single_content.data.reduce((acc, cur, i) => {
+                    let content = Array.isArray(cur.content) ? contentArrToList(cur.content) : cur.content;
+
                     acc.push((
                         <React.Fragment>
-                            <div className="label">{cur.label}:</div>
-                            <div className="content">{cur.content}</div>
+                            <div fmd="fmd" className="label">{cur.label}:</div>
+                            <div className="content">{content}</div>
                         </React.Fragment>
                     ));
                     return acc
@@ -63,7 +69,7 @@ function Section(props){
 
                 single_to_return = single_content.data.map((cur,i)=>{
                     return (
-                        <div key={i}>* {cur}</div>
+                        <li key={i}>{cur}</li>
                     );
                 });
 
@@ -86,6 +92,14 @@ function Section(props){
             
         }
     }
+}
+
+function contentArrToList(content){
+  const x = content.map(( cur, i, arr )=>{
+    return (<li>{cur}</li>);
+  });
+  return x;
+  return content.join(". ")
 }
 
 export {Section}

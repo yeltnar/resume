@@ -9,49 +9,41 @@
   },
   "resume": [
     {
-      "title": "Objective",
-      "content": [{
-        "type": "plain",
-        "data": [
-          "<i>Obtain a Software Engineering position</i>"
-        ]
-      }]
-    },
-    {
       "title": "Work Experience",
       "content": [
         {
           "type": "plain-date",
           "data": [
-            "IBM – Sr. Cloud Engineer, Client Engineering"
+            "IBM – Sr. Platform Engineer, Client Engineering"
           ],
-          "date": "June 2021-Present"
+          "date": "June 2021-March 2026"
         },
         {
           "type": "bullet",
           "data": [
-            "Support and advise team members in Cloud deployments on all major cloud providers",
-            "Deploy OpenShift, IBM Cloud Paks, and other applications on all major cloud providers",
-            "Write code for front ends, web servers, and integration components",
-            "Work with teams from project conception to proof of concept delivery",
-            "Demonstrate technology as a solution to client pain points"
+            "Designed pilots with customers and sales teams resulting in personalized experiences and the signing of $100k to $1M+ in revenue per engagement",
+            "Lead team initiatives to prioritize and delegate tasks based on strategic client impact and the probability of increasing revenue",
+            "Orchestrated the deployment of OpenShift, IBM Cloud Paks, and open source technologies to facilitate high-stake POCs and pilots",
+            "Engineered custom front ends, web servers, and complex integration components to seamlessly align off-the-shelf products with unique customer requirements using React, Node.js, and Python",
+            "Automated software deployment using Teraform, Ansible, and OpenShift build pipelines",
+            "Adminsitor linux servers hosting Podman containers using Ansible and podman-compose",
+            "Empowered other engineers through mentoring on how to write quality code, navigating and building with Kubernetes, and working in a large corporation"
           ]
         },
         {
           "type": "plain-date",
           "data": [
-            "IBM – IT Specialist, Coppell, Texas"
+            "IBM – IT Specialist, Global Solution Center, Coppell, Texas"
           ],
           "date": "September 2016-June 2021"
         },
         {
           "type": "bullet",
           "data": [
-            "Work with teams from app conception to proof of concept delivery",
-            "Deploy public and private cloud apps using VMs, and OpenShift",
-            "Realize abstract architectures as small components that developers can implement",
-            "Developed front ends, web servers, and integration components",
-            "Maintained deployments and runtimes for the team's applications"
+            "Distilled abstract architectures into small components that developers can implement as compelling POCs",
+            "Provisioned and maintained scalable public and private cloud apps using VMs, and OpenShift",
+            "Steered a cross-functional team in requirements gathering, prioritization and execution using an agile framework to deliver an internal React/Node.js/MongoDB app for organizing the catalog of existing POCs",
+            "Constructed robust front ends, web servers, and integration components to support enterprise workflows using React, Node.js, and Python"
           ]
         },
         {
@@ -64,43 +56,83 @@
         {
           "type": "bullet",
           "data": [
-            "Created IBM Worklight and web Apps using HTML, CSS, and JS",
-            "Developed backend for Apps in Node.JS",
-            "Presented at IBM Seller’s Academy and IBM Insight conferences"
+            "Developed full stack cross platform apps for the web and mobile in HTML 5 and Node.JS",
+            "Showcased IBM Tools at IBM Seller’s Academy and IBM Insight conferences"
           ]
         }
       ]
     },
     {
+      "skip":true,
+      "title": "Technical Projects",
+      "content": [
+        {
+          "type": "plain-date",
+          "data": ["Applications"],
+          "date": " "
+        },
+        {
+          "type": "bullet",
+          "data": [
+            "Deployed Linux based services on Ubuntu and NixOS using Podman, Compose, and systemd",
+            "Created an automated offsite backup and restore system using cron, systemd, BorgBackup, SOPS, SFTP, and object storage",
+            "Hardened networking and run time permissions to minimize attack surface",
+            "Troubleshot full stack issues from building a VM image to a crashing pod"
+          ]
+        },
+        {
+          "type": "plain-date",
+          "data": ["Infrastructure"],
+          "date": " "
+        },
+        {
+          "type": "bullet",
+          "data": ["Automated infrastructure deployment using Terraform and NixOS to go from code to populated app in one step while ensuring data safety"]
+        },
+        {
+          "type": "plain-date",
+          "data": ["Network"],
+          "date": " "
+        },
+        {
+          "type": "bullet",
+          "data": ["Configure OpenWrt router and firewall with isolated zones for LAN, IOT, and cameras and relevant traffic rules"]
+        }
+      ]
+    },
+    {
       "title": "Skills",
-      "content": [{
-        "type": "label-content",
-        "data": [{
-            "label": "Software",
-            "content": "Git, VS Code, IBM Cloud, Azure, AWS, IBM Cloud Paks, Maximo"
-          },
-          {
-            "label": "Languages",
-            "content": "JavaScript, TypeScript, HTML, CSS, Python, Nix, Go, Java"
-          },
-          {
-            "label": "Frameworks",
-            "content": "Express, React"
-          },
-          {
-            "label": "Technologies",
-            "content": "OpenShift, Docker, Podman, Kubernetes, IPFS, Nebula (Defined Networking), NodeJS, Agile, CouchDB/Cloudant, CICD, Google Firebase, Kafka"
-          },
-          {
-            "label": "Operating Systems",
-            "content": "Linux (NixOS, Ubuntu), Mac, Windows, Android, iOS, Chrome OS"
-          },
-          {
-            "label": "Other",
-            "content": "FPV RC quadcopter building and flying"
-          }
-        ]
-      }]
+      "content": [
+        {
+          "type": "label-content",
+          "data": [
+            {
+              "label": "Cloud",
+              "content": "Linux (server, desktop), OpenShift, Kubernetes, Podman, Docker, Proxmox, qemu, IBM Cloud, IBM Cloud Paks"
+            },
+            {
+              "label": "Languages",
+              "content": "JavaScript (TS, Node.js, browser), HTML, CSS, React, Python, Nix"
+            },
+            {
+              "label": "Technologies",
+              "content": "Git, CouchDB/Cloudant, MongoDB, mqtt, Kafka, CICD, Agile, vim, IPFS, Nebula (Defined Networking), VS Code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "content": [
+        {
+          "type": "achievement-date",
+          "data": [
+            "University of Texas at Dallas, BS Software Engineering"
+          ],
+          "date": "May 2016"
+        }
+      ]
     },
     {
       "title": "Achievements",
@@ -108,16 +140,16 @@
         {
           "type": "achievement-date",
           "data": [
-            "Red Hat Certified Specialist in Containers and Kubernetes"
+            "Technical Specialist Certification Expert - IBM and Open Group"
           ],
-          "date": "December 9, 2021"
+          "date": "November 12, 2025"
         },
         {
           "type": "achievement-date",
           "data": [
-            "Technical Specialist Certification - Level 2 (Master Certified IT Specialist)"
+            "Red Hat Certified Specialist in Containers and Kubernetes"
           ],
-          "date": "November 12, 2025"
+          "date": "December 9, 2021"
         },
         {  
           "type": "achievement-date",
@@ -129,9 +161,9 @@
         {
           "type": "achievement-date",
           "data": [
-            "University of Texas at Dallas, BS Software Engineering"
+            "US Patent filed"
           ],
-          "date": "May 2016"
+          "date": "November 2021"
         },
         {
           "type": "achievement-date",
@@ -140,7 +172,6 @@
           ],
           "date": "March 8, 2012"
         }
-
       ]
     }
   ]

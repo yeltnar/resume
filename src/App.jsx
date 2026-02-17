@@ -19,7 +19,7 @@ function App() {
 
   const sectionElementArr = resume_obj.map((cur,i)=>{
     console.log(cur);
-    return (<Section title={cur.title} content={cur.content} key={i}></Section>)
+    return (<Section title={cur.title} content={cur.content} skip={cur.skip}  key={i}></Section>)
   });
 
   return (
