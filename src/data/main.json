@@ -21,7 +21,7 @@
         {
           "type": "bullet",
           "data": [
-            "Develop and integrate new Python APIs using Flask and FastAPI within large, established codebases, supported by comprehensive unit, integration, and acceptance testing",
+            "Developed and integrated new Python APIs using Flask and FastAPI within large, established codebases, supported by comprehensive unit, integration, and acceptance testing",
             "Maintained Azure Infrastructure by using GitHub Actions and Terraform",
             "Designed and developed an AI proof of concept that uses Azure Cosmos DB and vector search to match product descriptions with inventory items, optimizing for cost, performance, and implementation effort"
           ]
@@ -41,7 +41,7 @@
             "Orchestrated the deployment of OpenShift, IBM Cloud Paks, and open source technologies to facilitate high-stakes POCs and pilots",
             "Engineered custom front ends, web servers, and complex integration components to seamlessly align off-the-shelf products with unique customer requirements using React, Node.js, and Python",
             "Automated software deployment using Terraform, Ansible, and OpenShift build pipelines",
-            "Administered linux servers hosting Podman containers using Ansible and podman-compose",
+            "Administered Linux servers hosting Podman containers using Ansible and podman-compose",
             "Empowered other engineers through mentoring on how to write quality code, navigating and building with Kubernetes, and working in a large corporation"
           ]
         },
