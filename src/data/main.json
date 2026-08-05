@@ -37,11 +37,11 @@
           "type": "bullet",
           "data": [
             "Designed pilots with customers and sales teams resulting in personalized experiences and the signing of $100k to $1M+ in revenue per engagement",
-            "Lead team initiatives to prioritize and delegate tasks based on strategic client impact and the probability of increasing revenue",
-            "Orchestrated the deployment of OpenShift, IBM Cloud Paks, and open source technologies to facilitate high-stake POCs and pilots",
+            "Led team initiatives to prioritize and delegate tasks based on strategic client impact and the probability of increasing revenue",
+            "Orchestrated the deployment of OpenShift, IBM Cloud Paks, and open source technologies to facilitate high-stakes POCs and pilots",
             "Engineered custom front ends, web servers, and complex integration components to seamlessly align off-the-shelf products with unique customer requirements using React, Node.js, and Python",
-            "Automated software deployment using Teraform, Ansible, and OpenShift build pipelines",
-            "Adminsitor linux servers hosting Podman containers using Ansible and podman-compose",
+            "Automated software deployment using Terraform, Ansible, and OpenShift build pipelines",
+            "Administered linux servers hosting Podman containers using Ansible and podman-compose",
             "Empowered other engineers through mentoring on how to write quality code, navigating and building with Kubernetes, and working in a large corporation"
           ]
         },
@@ -71,8 +71,8 @@
         {
           "type": "bullet",
           "data": [
-            "Developed full stack cross platform apps for the web and mobile in HTML 5 and Node.JS",
-            "Showcased IBM Tools at IBM Seller’s Academy and IBM Insight conferences"
+            "Developed full stack, cross platform apps for the web and mobile in HTML 5 and Node.js",
+            "Showcased IBM tools at IBM Seller’s Academy and IBM Insight conferences"
           ]
         }
       ]
@@ -123,7 +123,7 @@
           "data": [
             {
               "label": "Cloud",
-              "content": "Linux (server, desktop), OpenShift, Kubernetes, Podman, Docker, Proxmox, qemu, IBM Cloud, IBM Cloud Paks, Azure"
+              "content": "Linux (server, desktop), OpenShift, Kubernetes, Podman, Docker, Proxmox, QEMU, IBM Cloud, IBM Cloud Paks, Azure"
             },
             {
               "label": "Languages",
@@ -131,7 +131,7 @@
             },
             {
               "label": "Technologies",
-              "content": "Git, CouchDB/Cloudant, MongoDB, Cosmos DB, mqtt, Kafka, CICD, Agile, vim, IPFS, Nebula (Defined Networking), VS Code"
+              "content": "Git, CouchDB/Cloudant, MongoDB, Cosmos DB, MQTT, Kafka, CI/CD, Agile, vim, IPFS, Nebula (Defined Networking), VS Code"
             }
           ]
         }
@@ -155,7 +155,7 @@
         {
           "type": "achievement-date",
           "data": [
-            "Technical Specialist Certification Expert - IBM and Open Group"
+            "Technical Specialist Certification Expert - IBM and The Open Group"
           ],
           "date": "November 12, 2025"
         },
@@ -176,7 +176,7 @@
         {
           "type": "achievement-date",
           "data": [
-            "US Patent filed"
+            "U.S. patent filed"
           ],
           "date": "November 2021"
         },
