@@ -14,6 +14,21 @@
         {
           "type": "plain-date",
           "data": [
+            "Worx.AI - Software Developer"
+          ],
+          "date": "March 2026 - June 2026"
+        },
+        {
+          "type": "bullet",
+          "data": [
+            "Develop and integrate new Python APIs using Flask and FastAPI within large, established codebases, supported by comprehensive unit, integration, and acceptance testing",
+            "Maintained Azure Infrastructure by using GitHub Actions and Terraform",
+            "Designed and developed an AI proof of concept that uses Azure Cosmos DB and vector search to match product descriptions with inventory items, optimizing for cost, performance, and implementation effort"
+          ]
+        },
+        {
+          "type": "plain-date",
+          "data": [
             "IBM – Sr. Platform Engineer, Client Engineering"
           ],
           "date": "June 2021-March 2026"
@@ -108,7 +123,7 @@
           "data": [
             {
               "label": "Cloud",
-              "content": "Linux (server, desktop), OpenShift, Kubernetes, Podman, Docker, Proxmox, qemu, IBM Cloud, IBM Cloud Paks"
+              "content": "Linux (server, desktop), OpenShift, Kubernetes, Podman, Docker, Proxmox, qemu, IBM Cloud, IBM Cloud Paks, Azure"
             },
             {
               "label": "Languages",
@@ -116,7 +131,7 @@
             },
             {
               "label": "Technologies",
-              "content": "Git, CouchDB/Cloudant, MongoDB, mqtt, Kafka, CICD, Agile, vim, IPFS, Nebula (Defined Networking), VS Code"
+              "content": "Git, CouchDB/Cloudant, MongoDB, Cosmos DB, mqtt, Kafka, CICD, Agile, vim, IPFS, Nebula (Defined Networking), VS Code"
             }
           ]
         }
