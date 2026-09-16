@@ -21,7 +21,7 @@
         {
           "type": "bullet",
           "data": [
-            "Developed and integrated new Python APIs using Flask and FastAPI within large, established codebases, supported by comprehensive unit, integration, and acceptance testing",
+            "Developed and integrated new Python APIs using Flask and FastAPI within large, established codebases, supported by comprehensive unit, integration, and acceptance testing empowered with AI agents",
             "Maintained Azure Infrastructure by using GitHub Actions and Terraform",
             "Designed and developed an AI proof of concept that uses Azure Cosmos DB and vector search to match product descriptions with inventory items, optimizing for cost, performance, and implementation effort"
           ]
