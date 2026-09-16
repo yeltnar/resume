@@ -113,11 +113,11 @@
             },
             {
               "label": "Languages",
-              "content": "JavaScript (TS, Node.js, browser), HTML, CSS, React, Python, Nix"
+              "content": "JavaScript (TS, Node.js, browser), HTML, CSS, React, Python, Nix, Lua"
             },
             {
               "label": "Technologies",
-              "content": "Git, CouchDB/Cloudant, MongoDB, Cosmos DB, MQTT, Kafka, CI/CD, Agile, vim, IPFS, Nebula (Defined Networking), VS Code"
+              "content": "Git, CouchDB/Cloudant, MongoDB, Cosmos DB, MQTT, Kafka, CI/CD, Agile, vim, IPFS, Nebula (Defined Networking), Pi Agent"
             }
           ]
         }
