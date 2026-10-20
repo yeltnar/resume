@@ -14,7 +14,7 @@
         {
           "type": "plain",
           "data": [
-            "Senior software and platform engineer with 10+ years of experience translating customer needs into practical, high-impact technology. Combines hands-on software development and DevOps expertise with customer-facing pilots, technical leadership, and AI-enabled delivery. Experienced building enterprise applications, cloud platforms, and proofs of concept with Python, TypeScript, Kubernetes/OpenShift, and Azure."
+            "Senior software and platform engineer with 10+ years of experience translating customer needs into practical, high-impact technology. Combines hands-on software development and DevOps expertise with customer-facing pilots, technical leadership, and AI-enabled delivery. Experienced building enterprise applications, cloud platforms, and proofs of concept with Python, JavaScript, TypeScript, Kubernetes/OpenShift, and Azure."
           ],
           "date": "March 2026 - June 2026"
         }
@@ -35,7 +35,7 @@
           "data": [
             "Developed and integrated new Python APIs using Flask and FastAPI within large, established codebases, supported by comprehensive unit, integration, and acceptance testing empowered with AI agents",
             "Automated and maintained Azure Infrastructure with GitHub Actions and Terraform",
-            "Designed and developed an AI proof of concept that uses Azure Cosmos DB and vector search to match product descriptions with inventory items, optimizing for cost, performance, and implementation effort"
+            "Designed and developed an AI-powered proof of concept using Azure Cosmos DB and vector search to match product descriptions with inventory items, optimizing for cost, performance, and implementation effort"
           ]
         },
         {
@@ -52,6 +52,7 @@
             "Led team initiatives to prioritize and delegate tasks based on strategic client impact and the probability of increasing revenue",
             "Orchestrated the deployment of OpenShift, IBM Cloud Paks, and open source technologies to facilitate high-stakes POCs and pilots",
             "Engineered custom front ends, web servers, and complex integration components to seamlessly align off-the-shelf products with unique customer requirements using React, Node.js, and Python",
+            "Designed and developed custom AI chatbots enabling customers to query their data using natural language and interact with complex data workflows",
             "Automated software deployment using Terraform, Ansible, and OpenShift build pipelines",
             "Administered Linux servers hosting Podman containers using Ansible and podman-compose",
             "Empowered other engineers through mentoring on how to write quality code, navigating and building with Kubernetes, and working in a large corporation"
