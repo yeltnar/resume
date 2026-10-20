@@ -1,0 +1,69 @@
+
+> resume@0.1.0 deploy
+> rm -rf docs && npm run build && npm run print && cp -r dist docs && cp CNAME docs/ && cp pdf/*.pdf docs/ && cp hosted_files/* docs/
+
+
+> resume@0.1.0 build
+> vite build
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vite.config.js:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+vite v8.2.0 building client environment for production...
+[2Ktransforming...✓ 23 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.82 kB │ gzip:  0.89 kB
+dist/assets/index-yt9qne4u.css    2.17 kB │ gzip:  0.89 kB
+dist/assets/index-Cs4WdEHr.js   136.69 kB │ gzip: 44.09 kB
+
+✓ built in 83ms
+
+> resume@0.1.0 print
+> ./.pdf_save.sh
+
+
+> resume@0.1.0 build
+> vite build
+
+(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - ESM syntax in a file loaded as CommonJS (vite.config.js:1:1). Use a `.mjs` extension or set `"type": "module"` in the closest package.json
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+vite v8.2.0 building client environment for production...
+[2Ktransforming...✓ 23 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.82 kB │ gzip:  0.89 kB
+dist/assets/index-yt9qne4u.css    2.17 kB │ gzip:  0.89 kB
+dist/assets/index-Cs4WdEHr.js   136.69 kB │ gzip: 44.09 kB
+
+✓ built in 86ms
+d7ac182e482836dc8cd7d0247e62dd2627c0a0d788e7a62af6410ee89e14620a
+{
+  path: '../path/./pdf/AndrewBrantleyResume.pdf',
+  url: 'http://localhost:9999',
+  printBackground: true,
+  displayHeaderFooter: false
+}
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+Error: net::ERR_SOCKET_NOT_CONNECTED at http://localhost:9999
+    at navigate (/home/drew/playin/resume/node_modules/puppeteer/lib/FrameManager.js:120:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async FrameManager.navigateFrame (/home/drew/playin/resume/node_modules/puppeteer/lib/FrameManager.js:94:17)
+    at async Frame.goto (/home/drew/playin/resume/node_modules/puppeteer/lib/FrameManager.js:406:12)
+    at async Page.goto (/home/drew/playin/resume/node_modules/puppeteer/lib/Page.js:672:12)
+    at async /home/drew/playin/resume/print/index.js:38:5
+  -- ASYNC --
+    at Frame.<anonymous> (/home/drew/playin/resume/node_modules/puppeteer/lib/helper.js:111:15)
+    at Page.goto (/home/drew/playin/resume/node_modules/puppeteer/lib/Page.js:672:49)
+    at Page.<anonymous> (/home/drew/playin/resume/node_modules/puppeteer/lib/helper.js:112:23)
+    at /home/drew/playin/resume/print/index.js:38:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+
+Node.js v24.21.0
+time="2026-10-20T15:58:55-05:00" level=warning msg="StopSignal SIGTERM failed to stop container pdf_builder in 10 seconds, resorting to SIGKILL"
+pdf_builder
+saved to ./pdf/AndrewBrantleyResume.pdf
